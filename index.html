@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Conversor monedas</title>
+        <link rel="stylesheet" href="./css/style.css">
+     
+    </head>
+
+    <body>
+
+        <main class="main" >
+            <div class="titulo">
+                <h2>CONVERSOR DE DIVISAS</h2>
+            </div>
+            <div class="subtittle">
+                <p>INSERTE SU VALOR A CONVERTIR</p>
+            </div>
+            <div>
+                <p id="errorMessage"></p>
+            </div>
+            <form action="#" class="formfamily" id="form">
+                <div class="itemform">
+                    <div class="tittle-form">
+                        <label for="dollar">DOLAR </label>
+                    </div>
+                    
+                    
+                    <input type="text"  name="dollar" id="dollar" required="^[1-9]\d*(\.\d+)?$" >
+                    <div class="img">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1024px-Flag_of_the_United_States.svg.png" height="40px" width="60px">
+                    </div>
+                </div>
+          
+           
+                <div class="itemform">
+                    <div class="tittle-form">
+                        <label for="Euro">EUROS </label>
+                    </div>
+                    
+                    
+                    <input  readonly type="text" name="Euro" value=" " id="Euro"  >
+                    <div class="img">
+                        <img src="https://bandera.vlajky.org/nahled-velky/union_europea.png" height="40px" width="60px">
+                    </div>
+                </div>
+           
+            
+                <div class="itemform">
+                    <div class="tittle-form">
+                        <label for="Yen">YEN  </label>
+                    </div>
+                    
+                    
+                    <input readonly type="text" name="Yen" id="Yen" >
+                    <div class="img">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg" height="40px" width="60px">
+                    </div>
+                </div>
+            
+           
+                <div class="itemform">
+                    <div class="tittle-form">
+                        <label for="Libra">LIBRAS  </label>
+                        
+                    </div>
+                    
+                    
+                    <input  readonly type="text"  name="Libra" id="Libra" >
+                    <div class="img">
+                        <img src="https://turismo.org/wp-content/uploads/2010/09/Bandera-del-Reino-Unido-760x400.png" height="40px" width="60px">
+                    </div>
+                </div>
+            
+                <div class="itemform1">
+                    <input type="submit" value="Convertir" class="playicon" id="play">
+                </div>
+            </form>   
+        </main>         
+     <script src="./js/scripts.js"></script>
+    </body>
+   
+</html>

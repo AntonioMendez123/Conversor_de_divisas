@@ -1,0 +1,100 @@
+.main{
+    font-family: sans-serif;
+
+    text-align: center;
+    
+   
+}
+
+.titulo{
+    color: white;
+    background-color:rgb(51, 111, 231);
+    text-align: center;
+    margin-top: 0px;
+   
+}
+.subtittle{
+    font-size: 12px;
+    font-weight:lighter;
+    color: rgb(83, 84, 84);
+}
+
+.itemform{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    margin-top: 2rem;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+    
+  
+  
+}
+.itemform1{
+
+  
+    margin-top: 2rem;
+    height: 400px;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+  
+}
+#play{
+ 
+    position: relative;
+    
+    width: 18rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border-color:rgb(51, 111, 231);
+    outline: 1rem;
+    outline-color: rgb(51, 111, 231);
+    color:rgb(255, 255, 255);
+    background-color: rgb(51, 111, 231);
+    font-weight: bold;
+    
+   
+
+}
+.tittle-form{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 0.5rem;
+}
+
+#dollar{
+width: 250px;
+height: 30px;
+text-align: center;
+}
+
+#Euro{
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    
+}
+
+#Yen{
+    width: 250px;
+    height: 30px;
+    text-align: center;
+}
+#Libra{
+    width: 250px;
+    height: 30px;
+    text-align: center;
+}
+
+.img{
+    height: 30px;
+    width: 64px;
+    text-align: center;
+}
